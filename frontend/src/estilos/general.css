@@ -1,0 +1,70 @@
+.flx{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    align-items: left !important;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.lin{
+    flex-direction: row;
+}
+
+.c{
+    align-items: center;
+}
+
+.r{
+    justify-content: flex-end !important;
+}
+
+.l{
+    justify-content: flex-start !important;
+}
+
+.sep-c{
+    justify-content: space-between !important;
+}
+
+.no-sep{
+    justify-content: center !important;
+}
+
+.fnt{
+    font-family: Carter One;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box-g{
+    padding: 5px 10px 5px 10px;
+    height: 20px;
+    border: rgb(203, 203, 203) 1px solid;
+    border-radius: 7px;
+}
+
+.spc-h{
+    width: 20px;
+}
+.spc-v{
+    height: 20px;
+}
+
+.padd-h{
+    padding: 0px 10px 0px 10px;
+}
+
+.padd-v{
+    padding: 5px 0px 5px 0px;
+}
+
+.t-spc{
+    width: 100%;
+}

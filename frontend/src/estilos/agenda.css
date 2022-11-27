@@ -1,0 +1,73 @@
+.h2{
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    text-align: center;
+    font-family: Carter One;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(41, 41, 41);
+}
+
+.area{
+    height: 100%;
+    width: 100%;
+}
+
+.area-agend{
+    padding: 3% 0 1% 0;
+}
+
+.section-logo{
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Carter One;
+    font-weight: normal;
+}
+
+.imag-agend{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+}
+
+.section-logo-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-logo-side{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.select-box{
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    height: 33px;
+    font-family: Carter One;
+    font-weight: normal;
+    font-size: 18px;
+    border: rgb(203, 203, 203) 1px solid;
+    border-radius: 7px; 
+    cursor: pointer;
+}
+
+.text-box{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    border: rgb(203, 203, 203) 1px solid;
+    border-radius: 7px; 
+    cursor: text;
+}

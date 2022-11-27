@@ -1,0 +1,45 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "team": "Noche",
+    "name": "Maria",
+    "lastName": "Ocampo",
+    "userName": "marl2",
+    "password": "123",
+    "teamAdmin": true
+}
+
+###
+GET http://localhost:3001/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/6372514d23f8aa706f972fc2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/6372514d23f8aa706f972fc2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "team": "Noche",
+    "name": "Carlos",
+    "lastName": "Osorio",
+    "userName": "Carl2",
+    "password": "123",
+    "teamAdmin": true
+}
+
+###
+DELETE http://localhost:9000/api/users/6372514d23f8aa706f972fc2 HTTP/1.1
+
+
+###
+POST http://localhost:3001/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "team": "Dia",
+    "userName": "Car10",
+    "password": "123"
+}

@@ -1,0 +1,28 @@
+.btn {
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+    width: 75px;
+    height: 35px;
+    font-family: Carter One;
+    font-weight: normal;
+    font-size: 18px;
+    border: white;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.boton-blanco {
+    background-color: white;
+    color: rgb(41, 41, 41);
+}
+
+.boton-negro {
+    background-color: black;
+    color: white;
+}

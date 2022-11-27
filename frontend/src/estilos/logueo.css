@@ -1,0 +1,31 @@
+.img{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    margin: 0;
+    padding-top: 7px;
+    text-align: center;
+    font-family: Carter One;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(41, 41, 41);
+}
+
+.section-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Carter One;
+    font-weight: normal;
+}
